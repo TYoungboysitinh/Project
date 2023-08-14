@@ -1,0 +1,70 @@
+.zone1{
+    position: relative;
+    width: 100%;
+    height: 595px;
+    
+}
+.zone1 ul{
+    background-image: url(/public/image-lienhe/banner-lienhe.png);
+    text-align: center;
+    height: 78%;
+}
+.zone1 ul li img{
+    margin-top: 5%;
+}
+.zone1 ul li h1{
+    color: #ffffff;
+    font-weight: 800;
+    margin-top: 1%;
+}
+/* zone 2 */
+.zone2{
+    height: 645px;
+    background-color: #f3f3f3;
+}
+.zone2-nd{
+    width: 70%;
+    position: absolute;
+    margin-top: -3%;
+    height: 645px;
+    display: flex;
+    background-color: #ffffff;
+    margin-left: 15%;
+}
+.zone2-nd img{
+    margin-top: 10%;
+    width: 425px;
+    height: 425px;
+    margin-left: 10%;
+}
+.zone2-nd form{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.zone2-nd form h1{
+    color: #bd945f;
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+.zone2-nd form input{
+    width: 100%;
+    height: 10%;
+    margin-bottom: 3%;
+    border: 2px solid #bd945f;
+}
+.zone2-nd form input::placeholder{
+    color: #000;
+    font-weight: 500;
+    margin-left: 5%;
+    text-align: left;
+    padding: 4%;
+}
+.zone2-nd form button{
+    height: 10%;
+    width: 17%;
+    color: #ffffff;
+    font-weight: 500;
+    background-color: #bd945f;
+    border: none;
+}

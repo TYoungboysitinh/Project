@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+/* @font-face{
+    font-family: Gotham-medium ;
+    src: url(../FONT/Gotham-Medium.otf);
+}
+@font-face{
+    font-family: Gotham-thin;
+    src: url(../FONT/Gotham-Thin.otf);
+}
+@font-face{
+    font-family: Gotham-ultra;
+    src: url(../FONT/Gotham-Ultra.otf);
+} */
+body{
+    position: relative;
+}
+html{
+    font-size: 14px;
+    font-family: Gotham-ultra, Gotham-medium, Gotham-thin ;
+}
+header{
+    height: 130px;
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+    z-index: 1000;
+}
+.menu{
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    width: 43%;
+}
+.logo img{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+}
+.menu ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.menu li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+    font-weight: 600;
+}
+#menucon{
+    width: 10%;
+    margin-top: 50px;
+}
+#menucon a:hover{
+    border-bottom: 3px solid #bd945f;
+}
